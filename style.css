@@ -9,7 +9,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #4B0082, #764ba2);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -20,10 +20,10 @@ body {
 
 /* Chat Area */
 #chat-Area {
-  width: 90%;
-  max-width: 450px;
-  height: 70vh;
-  background: rgba(255, 255, 255, 0.1);
+  width: 200%;
+  max-width: 800px;
+  height: 80vh;
+  background: #4B0082;
   border-radius: 20px;
   padding: 20px;
   overflow-y: auto;
@@ -59,21 +59,26 @@ body {
 
 /* Question Bubble (Left) */
 #chat-Bubble div.user {
-  background: #cce5ff;  /* Soft Blue */
+  background: #18233e; 
+  color: white;
   align-self: flex-start;
   border-top-left-radius: 0;
 }
 
 /* Response Bubble (Right) */
 #chat-Bubble div.assistant {
-  background: #d4f8d4;  /* Soft Green */
+  background: #270E4D;  
+  color: #fff;
   align-self: flex-end;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-top-right-radius: 0;
 }
 
 /* Input Area */
 #textArea {
-  width: 70%;
+  width: 50%;
   padding: 10px 14px;
   border-radius: 20px;
   border: none;
@@ -91,7 +96,7 @@ body {
   padding: 10px 18px;
   border-radius: 20px;
   border: none;
-  background: #ff8c42;
+  background: #270E4D;
   color: #fff;
   font-weight: 500;
   cursor: pointer;
@@ -99,7 +104,7 @@ body {
   transition: 0.3s ease;
 }
 #askBtn:hover {
-  background: #ff7043;
+  background: #18233e;
   transform: scale(1.05);
 }
 
